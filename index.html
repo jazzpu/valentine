@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's day</title>
+    <link rel="stylesheet" href="valentines.css">
+    
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #6e5858;
+        }
+    
+        .card {
+            position: relative;
+            width: 80%;
+            height: 60%;
+            background-color: beige;
+            border-radius: 5%;
+            background-size: cover;
+            background-image: url("dog_cat.png");
+        }
+
+        .background {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            height: 60%;
+            opacity: 0.75;
+        }
+
+        .happyval {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+        }
+    
+        .continue {
+            position: absolute;
+            bottom: -29%;
+            height: 30%;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card"> 
+        <div class="background">
+            <img src="happyvalentine.gif" alt="" class="happyval">
+            <a href="valentines2.html" class="continue-link"><img src="Continue.png" alt="Continue" class="continue"></a>
+        </div>
+    </div>
+</body>
+</html>
